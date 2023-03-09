@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1 class="text-3xl font-bold text-center m-8">
+	Welcome to <span class="text-orange-500">SvelteKit</span> +
+	<span class="text-sky-400">TailwindCSS</span> !
+</h1>
+
+<style lang="postcss">
+	:global(html) {
+		background-color: theme(colors.slate.200);
+	}
+</style>
